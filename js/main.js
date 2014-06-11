@@ -88,8 +88,5 @@ editor.setup = function() {
   editor.newText();
   editor.setImage();
   editor.inputClickHandler();
-
-  
-
 }
 $(editor.setup);
