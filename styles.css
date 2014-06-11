@@ -1,0 +1,14 @@
+main {
+  width: 1260px;
+  margin: 0 auto;
+  text-align: center
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.kineticjs-content {
+  border: 1px solid black;
+  margin: 50px;
+}
