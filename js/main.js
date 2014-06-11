@@ -20,11 +20,11 @@ editor.createImageObj = function() {
 editor.setImage = function() {  
   editor.imageObj.onload = function() {
     var image = new Kinetic.Image({
-    x: 200,
-    y: 50,
+    x: 0,
+    y: 0,
     image: editor.imageObj,
-    width: 108,
-    height: 118,
+    width: 600,
+    height: 600,
     wrap: "word"
     });
 
