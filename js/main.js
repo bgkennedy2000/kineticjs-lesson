@@ -39,8 +39,9 @@ editor.newText = function() {
     y: 200,
     fontFamily: 'Calibri',
     fontSize: 24,
-    text: 'sample text',
+    text: $('#text_box').val(),
     fill: 'black',
+    draggable: true
   });
   editor.layer.add(editor.text);
   editor.stage.add(editor.layer);
