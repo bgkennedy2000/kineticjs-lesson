@@ -81,6 +81,8 @@ editor.setup = function() {
   editor.setLayer();
   editor.newText();
   editor.setImage();
+  editor.inputClickHandler();
+
   
 
 }
