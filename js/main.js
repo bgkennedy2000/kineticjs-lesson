@@ -69,7 +69,12 @@ editor.inputClickHandler = function() {
   $('#text_button').submit(function(ev) {
     ev.preventDefault();
     editor.newText();
+    $('#text_box').val("");
   }); 
+  $('#color_button').submit(function(ev) {
+    ev.preventDefault();
+    editor.changeTextColor();
+  })
 }
 
 
